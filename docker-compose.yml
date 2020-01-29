@@ -3,7 +3,7 @@ services:
   grafana:
     image: grafana/grafana:5.1.0
     environment: 
-      - GF_SERVER_ROOT_URL=http://192.168.99.100:3000
+      - GF_SERVER_ROOT_URL=http://ec2-3-85-76-235.compute-1.amazonaws.com:3000
       - GF_SECURITY_ADMIN_PASSWORD=123456
       - TZ="America/Bahia"
     ports:
